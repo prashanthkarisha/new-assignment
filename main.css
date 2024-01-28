@@ -1,0 +1,50 @@
+body{
+    background-color: #444140;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.singlebox{
+    display:inline-block;
+    width: auto;
+    height: 500px;;
+    border: 1px solid;
+    border-radius: 17px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+.program {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+.header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h1:hover {
+    text-decoration: underline;
+}
+.output{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+    height: auto;
+    cursor:pointer;
+}
+.output:hover {
+    border: 1px solid;
+    background-color:#1A181B;
+    color: white;
+}
+h3{
+    text-align: center;
+    text-decoration:double;
+}
+p .up-output{
+    transform: rotate(0.5turn);
+}
